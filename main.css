@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 10%;
+}
+
+div {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  margin: auto;
+  padding-left: 15%;
+}
+div section {
+  border: 0px solid blue;
+}
+
+.first {
+  background-color: hsla(241, 81%, 54%, 0.8);
+  text-align: center;
+  border-radius: 20px;
+  width: 30%;
+  height: 80%;
+  padding: 5.1%;
+  font-family: "Hanken Grotesk", sans-serif;
+  box-shadow: 10px 10px 5px hsl(221, 100%, 96%);
+}
+.first h6 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  margin-top: -0.1em;
+}
+.first p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.first h2 {
+  color: white;
+}
+
+.first .button {
+  background-color: hsla(234, 85%, 45%, 0.8);
+  border-radius: 50%;
+  width: 75px;
+  height: 100px;
+  border: 0px;
+  margin-top: -10px;
+  padding: 1em 1.5em 1em 1.5em;
+}
+.first .button span {
+  color: white;
+  font-size: 40px;
+}
+
+.first .button p {
+  position: relative;
+  left: 15px;
+}
+
+.first .g1 {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.second {
+  margin-left: -0.8em;
+  border-radius: 0% 20px 20px 0%;
+  width: 32%;
+  box-shadow: 5px 10px 5px hsl(221, 100%, 96%);
+  background-color: white;
+  padding: 4%;
+  font-family: "Hanken Grotesk", sans-serif;
+  z-index: 1;
+}
+.second button {
+  width: 100%;
+  margin: auto;
+  border: 0px;
+  padding-bottom: 0.5em;
+  border-radius: 10px;
+  font-size: 10px;
+  height: 35px;
+}
+
+.z {
+  font-weight: bold;
+}
+
+.second aside {
+  text-align: center;
+}
+
+.second h3 {
+  margin-left: 0.2em;
+}
+
+.second aside button img {
+  position: relative;
+  top: 5px;
+}
+
+.a1 {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.b1 {
+  color: hsla(0, 100%, 67%, 0.8);
+  font-weight: bold;
+}
+
+.a2 {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.b2 {
+  color: hsla(39, 100%, 56%, 0.8);
+  font-weight: bold;
+}
+
+.a3 {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.b3 {
+  color: hsla(166, 100%, 37%, 0.8);
+  font-weight: bold;
+}
+
+.a4 {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  text-align: center;
+}
+
+.b4 {
+  color: hsla(234, 85%, 45%, 0.8);
+  font-weight: bold;
+}
+
+.second aside .a5 {
+  margin-top: 8%;
+  padding: 1em;
+  border-radius: 40px;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  cursor: pointer;
+  margin-bottom: -1em;
+}
+
+.z2 {
+  color: rgba(124, 109, 109, 0.5);
+  font-weight: bold;
+}
+
+b {
+  color: rgba(202, 184, 184, 0.5);
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: block;
+    width: 100%;
+    padding-left: 0%;
+  }
+  .first {
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 0px 0px 0px;
+    overflow: hidden;
+  }
+  .second {
+    width: 80%;
+    margin: auto;
+    background-color: none;
+    box-shadow: 0px 0px 0px 0px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+}/*# sourceMappingURL=main.css.map */
